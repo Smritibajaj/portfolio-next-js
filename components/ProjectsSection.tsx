@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Rehustle",
     description:
-      "Rehustle is a platfrom creators who want to monetize their products or services from clicks of your mobile phone, get a single profile link and get paid easily.",
+      "Rehustle is a platfrom for creators who want to monetize their products or services from clicks of user's mobile phone, get a single profile link and get paid easily.",
     image: "/rehustle.png",
     github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://rehustle.co/Simmy",
