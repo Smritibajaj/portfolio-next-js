@@ -10,6 +10,7 @@ const projects = [
     description:
       "UMANG provides a single platform for all Indian Citizens to access pan India e-Gov services ranging from Central to Local Government bodies.",
     image: "/Umang.png",
+    technology: ["Angular JS", "HTML", "CSS"],
   },
   {
     name: "People Management SAAS",
@@ -18,6 +19,7 @@ const projects = [
     image: "/PeopleSaas.png",
     //github: "https://github.com/Smritibajaj",
     link: "https://www.allocatesoftware.com/",
+    technology: ["React JS", "Redux", "React Testing Library"],
   },
   {
     name: "Grorapid",
@@ -26,14 +28,16 @@ const projects = [
     image: "/grorapid.png",
     github: "https://github.com/Smritibajaj",
     link: "https://www.grorapid.com/",
+    technology: ["React JS", "Redux", "React Testing Library"],
   },
   {
     name: "SHL",
     description:
       "Evaluate candidate fit, readiness, and potential with an unmatched portfolio of personality tests, skills assessments, and job simulations.",
     image: "/shl.png",
-   // github: "https://github.com/Smritibajaj",
+    // github: "https://github.com/Smritibajaj",
     //link: "https://www.grorapid.com/",
+    technology: ["React JS", "Redux", "React Testing Library"],
   },
   {
     name: "Rehustle",
@@ -42,6 +46,14 @@ const projects = [
     image: "/rehustle.png",
     github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://rehustle.co/Simmy",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Express",
+      "Mongo DB",
+    ],
   },
   {
     name: "TransportGanj",
@@ -50,14 +62,28 @@ const projects = [
     image: "/transportganj.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://www.transportganj.com/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Express",
+      "Postgres",
+    ],
   },
   {
     name: "Invesco Fixed Income",
-    description:
-      "",
+    description: "",
     image: "/buydesk.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     //link: "https://www.transportganj.com/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Fast API",
+    ],
   },
   {
     name: "BuyDesk",
@@ -66,6 +92,13 @@ const projects = [
     image: "/buydesk.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     //link: "https://www.transportganj.com/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Nest JS",
+    ],
   },
   {
     name: "Leena AI",
@@ -74,14 +107,29 @@ const projects = [
     image: "/leena.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://leena.ai/labs/knowledge-gpt/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "React Native",
+      "Next JS",
+    ],
   },
   {
     name: "Experttal",
-    description:
-      "People Search Platform.",
+    description: "People Search Platform.",
     image: "/experttal.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://beta.experttal.com",
+    technology: [
+      "Next JS",
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Nest JS",
+    ],
   },
   {
     name: "Publsh",
@@ -89,7 +137,14 @@ const projects = [
     image: "/publsh.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://www.publsh.media/",
-  }
+    technology: [
+      "Next JS",
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Strapi CMS",
+    ],
+  },
 ];
 
 const ProjectsSection = () => {
@@ -132,6 +187,18 @@ const ProjectsSection = () => {
                     <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
+                    <div className="flex flex-wrap pb-2">
+                    {project.technology.map((technologyName) => (
+                        <div
+                          key={technologyName}
+                          className="flex justify-center items-center m-1 px-2 py-1 border border-gray-300 rounded-full bg-gray-200 text-base text-gray-700 font-medium"
+                        >
+                          <div className="flex-initial max-w-full leading-none text-md font-normal">
+                            {technologyName}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                     <div className="flex flex-row align-bottom space-x-4">
                       {project?.github ? (
                         <Link href={project.github} target="_blank">
