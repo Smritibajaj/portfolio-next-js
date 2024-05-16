@@ -32,13 +32,13 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Simmy and I am a Hi, I&apos;m Simmy, a{" "}
+              Hi, I&apos;m Simmy, a{" "}
               <span className="font-bold">dedicated</span> and
-              <span className="font-bold">ambitious</span> software engineer
+              <span className="font-bold">passionate</span> software engineer
               based in New Delhi, India. Since graduating with a BTech in
               Electronics and Communication Engineering from Guru Gobind Singh
               Indraprastha University in 2017, I&apos;ve been immersed in the tech
-              world, constantly pushing the boundaries of what&apos;s possible with
+              world and SaaS, constantly pushing the boundaries of what&apos;s possible with
               software.
             </p>
             <br />
