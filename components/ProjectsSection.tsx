@@ -19,7 +19,7 @@ const projects = [
     image: "/PeopleSaas.png",
     //github: "https://github.com/Smritibajaj",
     link: "https://www.allocatesoftware.com/",
-    technology: ["React JS", "Redux", "React Testing Library"],
+    technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
   {
     name: "Grorapid",
@@ -28,7 +28,7 @@ const projects = [
     image: "/grorapid.png",
     github: "https://github.com/Smritibajaj",
     link: "https://www.grorapid.com/",
-    technology: ["React JS", "Redux", "React Testing Library"],
+    technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
   {
     name: "SHL",
@@ -37,7 +37,7 @@ const projects = [
     image: "/shl.png",
     // github: "https://github.com/Smritibajaj",
     //link: "https://www.grorapid.com/",
-    technology: ["React JS", "Redux", "React Testing Library"],
+    technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
   {
     name: "Rehustle",
@@ -53,6 +53,7 @@ const projects = [
       "Node JS",
       "Express",
       "Mongo DB",
+      "Typescript"
     ],
   },
   {
@@ -69,6 +70,7 @@ const projects = [
       "Node JS",
       "Express",
       "Postgres",
+      "Typescript"
     ],
   },
   {
@@ -83,6 +85,7 @@ const projects = [
       "React Testing Library",
       "Node JS",
       "Fast API",
+      "Typescript"
     ],
   },
   {
@@ -98,6 +101,7 @@ const projects = [
       "React Testing Library",
       "Node JS",
       "Nest JS",
+      "Typescript"
     ],
   },
   {
@@ -114,6 +118,7 @@ const projects = [
       "Node JS",
       "React Native",
       "Next JS",
+      "Typescript"
     ],
   },
   {
@@ -129,6 +134,7 @@ const projects = [
       "React Testing Library",
       "Node JS",
       "Nest JS",
+      "Typescript"
     ],
   },
   {
@@ -143,6 +149,7 @@ const projects = [
       "Redux",
       "React Testing Library",
       "Strapi CMS",
+      "Typescript"
     ],
   },
 ];
