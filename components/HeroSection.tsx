@@ -32,10 +32,10 @@ const HeroSection = () => {
             <span className="font-semibold text-brand-blue">React.js</span> and{" "}
             <span className="font-semibold text-brand-blue">Next.js</span>, I
             specialize in crafting interactive, responsive, and visually
-            appealing web solutions. Whether it's building intuitive SaaS
+            appealing web solutions. Whether it&apos;s building intuitive SaaS
             applications or complex systems for the fintech and government
             sectors, I strive to bridge the gap between technical functionality
-            and user-friendly design. Let's create something amazing together!
+            and user-friendly design. Let&apos;s create something amazing together!
           </p>
 
           <Link

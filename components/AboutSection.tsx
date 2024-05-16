@@ -32,14 +32,14 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Simmy and I am a Hi, I'm Simmy, a{" "}
+              Hi, my name is Simmy and I am a Hi, I&apos;m Simmy, a{" "}
               <span className="font-bold">dedicated</span> and
               <span className="font-bold">ambitious</span> software engineer
               based in New Delhi, India. Since graduating with a BTech in
               Electronics and Communication Engineering from Guru Gobind Singh
-              Indraprastha University in 2017, I've been immersed in the tech
-              world, constantly pushing the boundaries of what's possible with
-              software.{" "}
+              Indraprastha University in 2017, I&apos;ve been immersed in the tech
+              world, constantly pushing the boundaries of what&apos;s possible with
+              software.
             </p>
             <br />
             <p>
@@ -50,16 +50,16 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Outside of work, I'm a person of diverse interests. Whether I'm
+              Outside of work, I&apos;m a person of diverse interests. Whether I&apos;m
               reading to expand my knowledge, playing sports to stay active,
-              traveling to new places, or I'm always engaged in activities that
+              traveling to new places, or I&apos;m always engaged in activities that
               enrich my life and broaden my horizons.
             </p>
             <br />
             <p>
-              I'm excited about the future and eager to explore new professional
-              avenues. I'm always open to new challenges and opportunities that
-              will allow me to grow and contribute to exciting projects. Let's
+              I&apos;m excited about the future and eager to explore new professional
+              avenues. I&apos;m always open to new challenges and opportunities that
+              will allow me to grow and contribute to exciting projects. Let&apos;s
               see what we can achieve together!
             </p>
             <br />
