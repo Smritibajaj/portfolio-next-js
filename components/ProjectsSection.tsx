@@ -151,7 +151,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
-        Projects
+        Top Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-brand-blue border-0 rounded"></hr>
       </h1>
 

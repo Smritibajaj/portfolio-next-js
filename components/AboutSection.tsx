@@ -2,14 +2,17 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  { skill: "React" },
+  { skill: "Node" },
+  { skill: "TypeScript" },
+  { skill: "JavaScript" },
+  { skill: "Next.js" },
   { skill: "HTML" },
   { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Node" },
-  { skill: "React" },
-  { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "Angular" },
+  { skill: "AWS" },
+  { skill: "Docker" },
   { skill: "Git" },
   { skill: "GitHub" },
 ];
@@ -29,36 +32,46 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Simmy and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in New Delhi, India.
+              Hi, my name is Simmy and I am a Hi, I'm Simmy, a{" "}
+              <span className="font-bold">dedicated</span> and
+              <span className="font-bold">ambitious</span> software engineer
+              based in New Delhi, India. Since graduating with a BTech in
+              Electronics and Communication Engineering from Guru Gobind Singh
+              Indraprastha University in 2017, I've been immersed in the tech
+              world, constantly pushing the boundaries of what's possible with
+              software.{" "}
             </p>
             <br />
             <p>
-              I graduated from Guru Gobind SinghIndraprastha University, New
-              Delhiin 2017 with a BTech in Electronics and Communication
-              Engineering and have been working in the field ever since.
+              My journey has been fueled by a passion for technology and a drive
+              to excel in my field. This has led me to specialize in developing
+              cutting-edge software solutions, keeping me at the forefront of
+              the industry.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              Outside of work, I'm a person of diverse interests. Whether I'm
+              reading to expand my knowledge, playing sports to stay active,
+              traveling to new places, or I'm always engaged in activities that
+              enrich my life and broaden my horizons.
             </p>
             <br />
             <p>
-              I believe that you should{" "}
-              <span className="font-bold text-brand-blue">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
+              I'm excited about the future and eager to explore new professional
+              avenues. I'm always open to new challenges and opportunities that
+              will allow me to grow and contribute to exciting projects. Let's
+              see what we can achieve together!
             </p>
+            <br />
+
+            <div>
+              <a
+                className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue my-8"
+                href="mailto:simmybajaj1603@gmail.com"
+              >
+                Get in touch
+              </a>
+            </div>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>

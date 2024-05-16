@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
+import { default as CustomLink } from "next/link";
 import { HiArrowDown } from "react-icons/hi";
 
 const HeroSection = () => {
@@ -22,24 +23,38 @@ const HeroSection = () => {
             Hi, I&#39;m Simmy!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+            A passionate{" "}
             <span className="font-semibold text-brand-blue">
-              Software Engineer{" "}
-            </span>
-            based in New Delhi, India. Working towards creating software that
-            makes life easier and more meaningful.
+              Full-Stack Developer
+            </span>{" "}
+            with a strong focus on frontend technologies. With over six years of
+            experience in{" "}
+            <span className="font-semibold text-brand-blue">React.js</span> and{" "}
+            <span className="font-semibold text-brand-blue">Next.js</span>, I
+            specialize in crafting interactive, responsive, and visually
+            appealing web solutions. Whether it's building intuitive SaaS
+            applications or complex systems for the fintech and government
+            sectors, I strive to bridge the gap between technical functionality
+            and user-friendly design. Let's create something amazing together!
           </p>
+
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue mr-4"
             activeClass="active"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
           >
-            Projects
+            Explore My Work
           </Link>
+          <a
+            className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue"
+            href="mailto:simmybajaj1603@gmail.com"
+          >
+            Get in touch
+          </a>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
