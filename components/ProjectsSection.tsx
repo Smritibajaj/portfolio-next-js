@@ -6,6 +6,65 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Dampsoft Athena",
+    description:
+      "Athena is the smart solution for digital anamnesis, consultation, and patient education. ",
+    image: "/leena.png",
+    // github: "https://github.com/grorapid/indiehustle-frontend.git",
+    link: "https://www.dampsoft.com/athena/",
+    technology: [
+      "AI Integration",
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "React Native",
+      "Next JS",
+      "Typescript",
+      "AWS"
+    ],
+  },
+  {
+    name: "Service Up",
+    description:
+      "Service Up is an marketplace for vehicle maintenance and repair services.",
+    image: "/leena.png",
+    // github: "https://github.com/grorapid/indiehustle-frontend.git",
+    link: "https://www.serviceup.com/",
+    technology: [
+      "AI Integration",
+      "React JS",
+      "Redux",
+      "Node JS",
+      "React Native",
+      "Next JS",
+      "Typescript",
+      "Nest JS",
+      "Docker",
+      "Postgres",
+      "AWS"
+    ],
+  },
+  {
+    name: "Leena AI",
+    description:
+      "A Gen AI employee assistant that reduces IT, HR, Finance tickets. We guarantee 70% self-service ratio in the contract.",
+    image: "/leena.png",
+    // github: "https://github.com/grorapid/indiehustle-frontend.git",
+    link: "https://leena.ai/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "React Native",
+      "Next JS",
+      "Typescript",
+      "AWS",
+      "Node JS"
+    ],
+  },
+  {
     name: "UMANG",
     description:
       "UMANG provides a single platform for all Indian Citizens to access pan India e-Gov services ranging from Central to Local Government bodies.",
@@ -104,54 +163,7 @@ const projects = [
       "Typescript"
     ],
   },
-  {
-    name: "Leena AI",
-    description:
-      "A Gen AI employee assistant that reduces IT, HR, Finance tickets. We guarantee 70% self-service ratio in the contract.",
-    image: "/leena.png",
-    // github: "https://github.com/grorapid/indiehustle-frontend.git",
-    link: "https://leena.ai/labs/knowledge-gpt/",
-    technology: [
-      "React JS",
-      "Redux",
-      "React Testing Library",
-      "Node JS",
-      "React Native",
-      "Next JS",
-      "Typescript"
-    ],
-  },
-  {
-    name: "Experttal",
-    description: "People Search Platform.",
-    image: "/experttal.png",
-    // github: "https://github.com/grorapid/indiehustle-frontend.git",
-    link: "https://beta.experttal.com",
-    technology: [
-      "Next JS",
-      "React JS",
-      "Redux",
-      "React Testing Library",
-      "Node JS",
-      "Nest JS",
-      "Typescript"
-    ],
-  },
-  {
-    name: "Publsh",
-    description: "An E store for Digital Media Company.",
-    image: "/publsh.png",
-    // github: "https://github.com/grorapid/indiehustle-frontend.git",
-    link: "https://www.publsh.media/",
-    technology: [
-      "Next JS",
-      "React JS",
-      "Redux",
-      "React Testing Library",
-      "Strapi CMS",
-      "Typescript"
-    ],
-  },
+
 ];
 
 const ProjectsSection = () => {
