@@ -32,14 +32,21 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, I&apos;m Simmy, a{" "}
-              <span className="font-bold">{`dedicated `}</span>and
-              <span className="font-bold">{`passionate `}</span> software engineer
-              based in New Delhi, India. Since graduating with a BTech in
-              Electronics and Communication Engineering from Guru Gobind Singh
-              Indraprastha University in 2017, I&apos;ve been immersed in the tech
-              world and SaaS, constantly pushing the boundaries of what&apos;s possible with
-              software.
+              {`I’m a Senior Full-Stack Engineer with over 8 years of experience
+              building scalable web, mobile, and AI-powered products. I work
+              across frontend, backend, and AI integration, focusing on turning
+              complex requirements into reliable, production-ready systems. My
+              background spans React, React Native, Next.js, Node.js, and
+              Python, with hands-on experience delivering AI features such as
+              document intelligence, image analysis, and LLM-powered workflows.
+              I’ve built and scaled products in HealthTech and B2B SaaS
+              environments where performance, security, and user experience
+              matter. I care deeply about product quality, system design, and
+              real business impact. Whether it’s optimizing load times,
+              designing reusable architectures, or shipping AI features that
+              users actually adopt, I focus on building software that lasts.
+              This portfolio highlights selected projects where I owned critical
+              parts of the system and delivered meaningful outcomes.`}
             </p>
             <br />
             <p>
@@ -50,17 +57,17 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Outside of work, I&apos;m a person of diverse interests. Whether I&apos;m
-              reading to expand my knowledge, playing sports to stay active,
-              traveling to new places, or I&apos;m always engaged in activities that
-              enrich my life and broaden my horizons.
+              Outside of work, I&apos;m a person of diverse interests. Whether
+              I&apos;m reading to expand my knowledge, playing sports to stay
+              active, traveling to new places, or I&apos;m always engaged in
+              activities that enrich my life and broaden my horizons.
             </p>
             <br />
             <p>
-              I&apos;m excited about the future and eager to explore new professional
-              avenues. I&apos;m always open to new challenges and opportunities that
-              will allow me to grow and contribute to exciting projects. Let&apos;s
-              see what we can achieve together!
+              I&apos;m excited about the future and eager to explore new
+              professional avenues. I&apos;m always open to new challenges and
+              opportunities that will allow me to grow and contribute to
+              exciting projects. Let&apos;s see what we can achieve together!
             </p>
             <br />
 

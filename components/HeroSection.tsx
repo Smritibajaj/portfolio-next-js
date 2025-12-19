@@ -23,19 +23,7 @@ const HeroSection = () => {
             Hi, I&#39;m Simmy!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            A passionate{" "}
-            <span className="font-semibold text-brand-blue">
-              Full-Stack Developer
-            </span>{" "}
-            with a strong focus on frontend technologies. With over six years of
-            experience in{" "}
-            <span className="font-semibold text-brand-blue">React.js</span> and{" "}
-            <span className="font-semibold text-brand-blue">Next.js</span>, I
-            specialize in crafting interactive, responsive, and visually
-            appealing web solutions. Whether it&apos;s building intuitive SaaS
-            applications or complex systems for the fintech and government
-            sectors, I strive to bridge the gap between technical functionality
-            and user-friendly design. Let&apos;s create something amazing together!
+            {`Senior Full-Stack Engineer with 8+ years of experience building high-performance web, mobile, and AI-powered products. I specialize in React, React Native, Node.js, and Python, with a strong focus on AI integration, system design, and real-world product impact.`}
           </p>
 
           <Link
