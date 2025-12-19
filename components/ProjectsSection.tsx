@@ -8,7 +8,7 @@ const projects = [
   {
     name: "Dampsoft Athena",
     description:
-      "Athena is the smart solution for digital anamnesis, consultation, and patient education. ",
+      "Athena is a ios application for dentist to manage digital anamnesis, consultation, and patient education.",
     image: "/athena.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://www.dampsoft.com/athena/",
