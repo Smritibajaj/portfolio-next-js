@@ -20,7 +20,6 @@ const skills = [
   { skill: "SQL" },
   { skill: "NoSQL" },
   { skill: "AI Integration" },
-
 ];
 
 const AboutSection = () => {
@@ -33,59 +32,56 @@ const AboutSection = () => {
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-          <div className="md:w-1/2 ">
+          <div className="md:w-1/2">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me!
             </h1>
-            <p>
-              {`I’m a Senior Full-Stack Engineer with over 8 years of experience
-              building scalable web, mobile, and AI-powered products. I work
-              across frontend, backend, and AI integration, focusing on turning
-              complex requirements into reliable, production-ready systems. My
-              background spans React, React Native, Next.js, Node.js, and
-              Python, with hands-on experience delivering AI features such as
-              document intelligence, image analysis, and LLM-powered workflows.
-              I’ve built and scaled products in HealthTech and B2B SaaS
-              environments where performance, security, and user experience
-              matter. I care deeply about product quality, system design, and
-              real business impact. Whether it’s optimizing load times,
-              designing reusable architectures, or shipping AI features that
-              users actually adopt, I focus on building software that lasts.
-              This portfolio highlights selected projects where I owned critical
-              parts of the system and delivered meaningful outcomes.`}
-            </p>
-            <br />
-            <p>
-              My journey has been fueled by a passion for technology and a drive
-              to excel in my field. This has led me to specialize in developing
-              cutting-edge software solutions, keeping me at the forefront of
-              the industry.
-            </p>
-            <br />
-            <p>
-              Outside of work, I&apos;m a person of diverse interests. Whether
-              I&apos;m reading to expand my knowledge, playing sports to stay
-              active, traveling to new places, or I&apos;m always engaged in
-              activities that enrich my life and broaden my horizons.
-            </p>
-            <br />
-            <p>
-              I&apos;m excited about the future and eager to explore new
-              professional avenues. I&apos;m always open to new challenges and
-              opportunities that will allow me to grow and contribute to
-              exciting projects. Let&apos;s see what we can achieve together!
-            </p>
+            <ul className="list-disc list-inside space-y-3">
+              <li>
+                Senior Full-Stack Engineer with{" "}
+                <strong>8+ years of experience </strong>
+                building scalable web, mobile, and AI-powered products.
+              </li>
+              <li>
+                Hands-on across{" "}
+                <strong>frontend, backend, and AI integration</strong>,
+                delivering reliable, production-ready systems.
+              </li>
+              <li>
+                Strong expertise in{" "}
+                <strong>
+                  React, React Native, Next.js, Node.js, and Python
+                </strong>
+                , used in real-world, high-impact applications.
+              </li>
+              <li>
+                Delivered AI-driven features including{" "}
+                <strong>
+                  document intelligence, image analysis, and LLM-powered
+                  workflows
+                </strong>
+                .
+              </li>
+              <li>
+                Built and scaled products in{" "}
+                <strong>HealthTech and B2B SaaS</strong>
+                with a strong focus on performance, security, and user
+                experience.
+              </li>
+            </ul>
+
             <br />
 
             <div>
               <a
-                className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue my-8"
+                className="text-neutral-100 font-semibold px-6 py-3 bg-brand-blue rounded shadow hover:bg-brand-blue my-8 inline-block"
                 href="mailto:simmybajaj1603@gmail.com"
               >
                 Get in touch
               </a>
             </div>
           </div>
+
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
