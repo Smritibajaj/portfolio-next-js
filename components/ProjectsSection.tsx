@@ -134,8 +134,8 @@ const projects = [
   },
   {
     name: "Invesco Fixed Income",
-    description: "",
-    image: "/buydesk.png",
+    description: "For invesco create a fixed income porfolio management tool.",
+    image: "/invesco.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     //link: "https://www.transportganj.com/",
     technology: [
