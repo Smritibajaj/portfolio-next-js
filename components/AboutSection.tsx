@@ -64,7 +64,7 @@ const AboutSection = () => {
               </li>
               <li>
                 Built and scaled products in{" "}
-                <strong>HealthTech and B2B SaaS</strong>
+                <strong>HealthTech and B2B SaaS </strong>
                 with a strong focus on performance, security, and user
                 experience.
               </li>
