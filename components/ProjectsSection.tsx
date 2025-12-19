@@ -65,11 +65,28 @@ const projects = [
     ],
   },
   {
-    name: "UMANG",
+    name: "Invesco Fixed Income",
+    description: "For invesco create a fixed income porfolio management tool.",
+    image: "/invesco.png",
+    // github: "https://github.com/grorapid/indiehustle-frontend.git",
+    //link: "https://www.transportganj.com/",
+    technology: [
+      "React JS",
+      "Redux",
+      "React Testing Library",
+      "Node JS",
+      "Fast API",
+      "Typescript"
+    ],
+  },
+  {
+    name: "SHL",
     description:
-      "UMANG provides a single platform for all Indian Citizens to access pan India e-Gov services ranging from Central to Local Government bodies.",
-    image: "/Umang.png",
-    technology: ["Angular JS", "HTML", "CSS"],
+      "Evaluate candidate fit, readiness, and potential with an unmatched portfolio of personality tests, skills assessments, and job simulations.",
+    image: "/shl.png",
+    // github: "https://github.com/Smritibajaj",
+    //link: "https://www.grorapid.com/",
+    technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
   {
     name: "People Management SAAS",
@@ -81,6 +98,14 @@ const projects = [
     technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
   {
+    name: "UMANG",
+    description:
+      "UMANG provides a single platform for all Indian Citizens to access pan India e-Gov services ranging from Central to Local Government bodies.",
+    image: "/Umang.png",
+    technology: ["Angular JS", "HTML", "CSS"],
+  },
+  
+  {
     name: "Grorapid",
     description:
       "Execute ready made growth recipes for your business to get more customers, grow your audience and engage using the best email marketing platform. Clean and Validate your email lists in bulk to increase deliverability and get maximum conversions on your cold campaigns",
@@ -89,15 +114,7 @@ const projects = [
     link: "https://www.grorapid.com/",
     technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
   },
-  {
-    name: "SHL",
-    description:
-      "Evaluate candidate fit, readiness, and potential with an unmatched portfolio of personality tests, skills assessments, and job simulations.",
-    image: "/shl.png",
-    // github: "https://github.com/Smritibajaj",
-    //link: "https://www.grorapid.com/",
-    technology: ["React JS", "Redux", "React Testing Library", "Typescript"],
-  },
+  
   {
     name: "Rehustle",
     description:
@@ -112,38 +129,6 @@ const projects = [
       "Node JS",
       "Express",
       "Mongo DB",
-      "Typescript"
-    ],
-  },
-  {
-    name: "TransportGanj",
-    description:
-      "TransportGanj is leading and most trusted logistics & truck transportation services provider company in Gujarat, India.",
-    image: "/transportganj.png",
-    // github: "https://github.com/grorapid/indiehustle-frontend.git",
-    link: "https://www.transportganj.com/",
-    technology: [
-      "React JS",
-      "Redux",
-      "React Testing Library",
-      "Node JS",
-      "Express",
-      "Postgres",
-      "Typescript"
-    ],
-  },
-  {
-    name: "Invesco Fixed Income",
-    description: "For invesco create a fixed income porfolio management tool.",
-    image: "/invesco.png",
-    // github: "https://github.com/grorapid/indiehustle-frontend.git",
-    //link: "https://www.transportganj.com/",
-    technology: [
-      "React JS",
-      "Redux",
-      "React Testing Library",
-      "Node JS",
-      "Fast API",
       "Typescript"
     ],
   },

@@ -26,7 +26,16 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
 ];
-
+const OTHER_NAV_ITEMS: Array<NavItem> = [
+  {
+    label: "Github",
+    page: "https://github.com/Smritibajaj",
+  },
+  {
+    label: "LinkedIn",
+    page: "https://www.linkedin.com/in/simmybajaj",
+  }
+];
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
@@ -77,6 +86,22 @@ export default function Navbar() {
                   >
                     {item.label}
                   </Link>
+                );
+              })}
+              {OTHER_NAV_ITEMS.map((item, idx) => {
+                return (
+                  <a
+                    key={idx}
+                    href={item.page}
+                    className={
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                    }
+                    target="_blank"
+                    rel="noreferrer"
+                    onClick={() => setNavbar(!navbar)}
+                  >
+                    {item.label}
+                  </a>
                 );
               })}
               {currentTheme === "dark" ? (

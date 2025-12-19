@@ -3,7 +3,8 @@ import Image from "next/image";
 
 const skills = [
   { skill: "React" },
-  { skill: "Node" },
+  { skill: "React Native" },
+  { skill: "Node JS" },
   { skill: "TypeScript" },
   { skill: "JavaScript" },
   { skill: "Next.js" },
@@ -15,6 +16,11 @@ const skills = [
   { skill: "Docker" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "Python" },
+  { skill: "SQL" },
+  { skill: "NoSQL" },
+  { skill: "AI Integration" },
+
 ];
 
 const AboutSection = () => {
