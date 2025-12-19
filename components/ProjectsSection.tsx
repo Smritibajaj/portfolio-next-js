@@ -9,7 +9,7 @@ const projects = [
     name: "Dampsoft Athena",
     description:
       "Athena is the smart solution for digital anamnesis, consultation, and patient education. ",
-    image: "/leena.png",
+    image: "/athena.png",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://www.dampsoft.com/athena/",
     technology: [
@@ -28,7 +28,7 @@ const projects = [
     name: "Service Up",
     description:
       "Service Up is an marketplace for vehicle maintenance and repair services.",
-    image: "/leena.png",
+    image: "/serviceup.avif",
     // github: "https://github.com/grorapid/indiehustle-frontend.git",
     link: "https://www.serviceup.com/",
     technology: [
